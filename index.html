@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameradar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gameradar</h1> <img src="gameradar-logo.png">
+        <h2>Encontre o link daquele jogo de FPS que você tanto procura aqui.</h2>
+    </header>
+    <main>
+        <section>
+            <input id="input-pesquisa" type="text" placeholder="buscar jogos"><br>
+        <button onclick="pesquisar()">pesquisar</button>
+        </section>
+        <section id="resultados-pesquisa" class="resultados-pesquisa">
+        </section>
+    </main>
+    <footer class="warning">
+        <p><b>Este site é focado em jogos estilo FPS.</b></p>
+        <p><b>Caso você não encontre o jogo que você pesquisou é por que ele ainda não está disponível nesse site.</b></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
